@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #878383;
+}
+
+.container {
+    max-width: 500px;
+    /* centralizar */
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 8px;
+}
+
+.btn-cadastro,
+.btn-limpar {
+    background: #006400;
+    color: rgb(235, 241, 246);
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-limpar {
+    background: red;
+}
